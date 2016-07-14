@@ -1,19 +1,21 @@
-var cars = {
-	id 		 	: 0,
-	maker		: "Mazda",
-	carType	: {
-		types	: [
-			{carId : 1, name: "Miata"},
-			{carId : 2, name: "Mazda6"},
-			{carId : 3, name: "CX-6"},
-			{carId : 4, name: "B2200"},
-			{carId : 5, name: "MX-3"}
-			]
-	}
+//Objects
+
+var rappers = {
+	//properties
+	name		: "Lil Yachty",  //must have a comma after every property except the final one
+	age		: 18,
+	vocation	: "New age rapper",
+	married		: false
+};
+	name		: "2pac",  //must have a comma after every property except the final one
+	age		: 35,
+	vocation	: "Old School, WEst Coast Rapper",
+	married		: false	
 };
 
-//Access
+};
 
-for(var car in cars.carType.types){
-	console.log(cars.carType.types[car].name);
-}
+//Accessing values in the Objects
+console.log(rappers); //this will run every property in my variable
+console.log(rappers.name); //this will run Lil Yachty, 2pac
+console.log(sherlockCast.vocation); //this will run New age rapper, old school west coast rapper
