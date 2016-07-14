@@ -1,6 +1,4 @@
 //Stings
-//"sike feral gang"
-
 var myName = "Aidan"
 console.log(myName)
 var password = "L!z4rd"
